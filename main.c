@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
-    int a;
-    int b;
+//retry ex2
 
-    printf("enter an integer : ");
-    scanf("%i", &a);
+int main(void)
+{
+  char c;
+  int i;
 
-    printf("enter an integer : ");
-    scanf("%i", &b);
+  printf("input a number : ");
+  scanf("%c", &c);
 
-    printf("%f\n", (float)a/b);
-
-    system("PAUSE");
-    return 0;
+  i = c - '0';
+  printf("The input number is %i\n", i);
+ 
+  system("PAUSE");
+  return 0;
 }
